@@ -1,0 +1,78 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,500');
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+h1{
+  font-family: 'Cabin Sketch', 'Arial', serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: white;
+  padding-top: 30px;
+  padding-left: 40px;
+  line-height: 10px;
+  color: #1e1d33;
+}
+
+h2 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 40px;
+  color: #1e1d33;
+  line-height: 5px;
+}
+
+header {
+  background-image: url('../img/coverphoto1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+nav {
+	width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  float: left;
+  text-align: right;
+  background: white;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px;
+	padding: 5px 25px;
+	border: 1px solid #bf0451;
+	font-size: 10px;
+	color: #1e1d33;
+	letter-spacing: 1px;
+  display: inline-block;
+  margin: 10px 30px;
+  -webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+a:hover {
+  	background-color: #1e1d33;
+  	color: white;
+}
+
+.intro {
+  margin-top: 100px;
+  position: fixed;
+}

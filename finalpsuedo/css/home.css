@@ -1,0 +1,8 @@
+header {
+  background-image: url('../img/coverphoto1.png');
+}
+.aboutimg1 {
+  background-image: url("../img/aboutphoto2.png");
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,500');
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+
+/*TYPOGRAPY*/
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+h1 {
+  font-family: 'Righteous', 'Arial', serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: white;
+  padding-left: 40px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'Heebo', sans-serif;
+  color: #bf0451;
+}
+
+p {
+  color: #1e1d33;
+}
+
+/*HEADER STYLING*/
+
+header {
+  background-size: cover;
+  height: 90vh;
+}
+
+header h1 {
+  padding-top: 150px;
+}
+
+.intro h1, h2 {
+  padding-left: 100px;
+}
+
+.intro a {
+  background-color: #1e1d33;
+  color: white;
+  margin-left: 100px;
+}
+
+.intro a:hover {
+  background-color: white;
+  color: #1e1d33;
+  font-weight: 500;
+}
+
+/*NAVIGATION STYLING*/
+
+nav {
+	width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  top: 0;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  border: 1px;
+	padding: 10px 25px;
+	border: 1px solid white;
+  color: white;
+	font-size: 10px;
+	letter-spacing: 1px;
+  display: inline-block;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  text-transform: uppercase;
+}
+
+nav a {
+  margin: 10px 30px;
+}
+
+a:hover {
+  background-color: #1e1d33;
+  color: white;
+}
+
+.navactive {
+  background-color: white;
+}
+
+.navactive a {
+  border: 1px solid #bf0451;
+  color: #bf0451;
+}
+
+.navactive a:hover {
+  background-color: #1e1d33;
+  color: white;
+}
+
+
+/*CALLOUT SECTIONS*/
+
+.quote {
+  background: #1e1d33;
+  color: white;
+  padding: 200px 50px;
+  text-align: center;
+}
+
+/*ABOUT SECTION LAYOUT*/
+
+.aboutsection1 {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-gap: 20px;
+}
+
+.aboutp1 {
+  padding: 50px 100px;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #bf0451;
+  padding: 5px;
+}

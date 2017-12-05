@@ -1,0 +1,36 @@
+header {
+  background-image: url('../img/coverprofile.png');
+}
+a {
+  color: #bf0451;
+  border: 1px solid #bf0451;
+}
+
+.aboutimg1 {
+  background-image: url("../img/profile1.png");
+  background-position: center;
+  background-size: cover;
+}
+.interactiveprofile {
+  position: relative;
+}
+.chevronright, .chevronleft {
+  font-size: 50px;
+  z-index: 1;
+  position: absolute;
+  top: 50%
+}
+.chevronleft {
+  left: 20px;
+}
+.chevronright {
+  right: 20px;
+}
+.chevronright a, .chevronleft a {
+  border: none;
+  padding: 0;
+}
+.chevronright a:hover, .chevronleft a:hover {
+  color: #1e1d33;
+  background: none;
+}
